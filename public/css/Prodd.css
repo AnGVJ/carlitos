@@ -1,0 +1,187 @@
+body {
+    background-color: #060528;
+}
+
+.mt-3 {
+    display: flex;
+
+    margin-left: auto;
+    width: 99%;
+}
+
+.box-1 {
+    width: 80vh; /* Tamaño deseado para cada caja */
+    height: 80px;
+    border-radius: 15px;
+    background-color: #181a32;
+    border: 0.5px solid #50507685;
+    box-shadow: 0px 10px 30px #5050767d;
+}
+.box-2 {
+    margin-right: 15px;
+    width: 50vh; /* Tamaño deseado para cada caja */
+    height: 50px;
+    border-radius: 8px;
+    background-color: #181a32;
+    border: 0.5px solid #50507685;
+    box-shadow: 0px 10px 30px #5050767d;
+}
+.tabla {
+    overflow-y: auto;
+    width: 98%;
+    height: 72vh;
+    margin-left: 15px;
+    border-radius: 15px;
+    background-color: #181a32;
+    border: 0.5px solid #50507685;
+    box-shadow: 0px 10px 30px #5050767d;
+}
+
+.bi-chevron-down {
+    color: #ffffff;
+    margin-left: 25vh;
+}
+.titulo2 {
+    margin-left: 45px;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.fo .co {
+    background-color: #181a32;
+    border: 0.5px solid #ffffff31;
+    color: white;
+    width: 500px;
+    height: 30px;
+    text-align: center;
+
+    margin-left: 10px;
+    padding-left: 35px;
+}
+
+.fo .co::placeholder {
+    color: #ffffff;
+}
+
+.fo .search-icon {
+    position: absolute;
+    top: 45%;
+    left: 70px;
+    transform: translateY(-50%);
+    color: #393a68;
+    font-size: 1.2em;
+}
+
+.fo .co:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.divt {
+    position: absolute;
+    margin-top: 70px;
+    width: 85%;
+}
+
+.titulo3 {
+    font-size: 18px;
+    color: #ffffff;
+}
+.box-3 {
+    margin-left: 140px;
+    width: 25vh; /* Tamaño deseado para cada caja */
+    height: 50px;
+    border-radius: 8px;
+    background-color: #181a32;
+    border: 0.5px solid #50507685;
+    box-shadow: 0px 10px 30px #5050767d;
+}
+.titulo4 {
+    margin-left: 40px;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #ffffff;
+}
+.filtros {
+    background-color: #393a68;
+    height: 60px;
+    width: 160vh;
+}
+.color-box {
+    width: 100%; /* El ancho puede ajustarse */
+    height: 10px; /* Altura de los cuadros de color */
+    margin-top: 5px; /* Separación del título */
+}
+
+.bg-pink {
+    background-color: #ffc0cb; /* Color rosa */
+}
+
+.bg-purple {
+    background-color: #800080; /* Color morado */
+}
+.letrita {
+    font-size: 10px; /* Tamaño de letra */
+    color: #ffffff; /* Color del texto */
+    text-transform: uppercase; /* Todo en mayúsculas */
+}
+
+.del {
+    height: 50px;
+}
+.info {
+    margin-left: 20px;
+    margin-right: 25px;
+}
+.tablis {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.ntnproc {
+    margin-right: 20px;
+    height: 40px;
+    background-color: #060528;
+    color: #ddd;
+}
+
+.custom-table {
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 95%;
+    background-color: transparent; /* Asegúrate de que el fondo sea transparente */
+    border-collapse: collapse; /* Colapsa bordes para evitar espacios */
+    color: white; /* Color del texto */
+}
+
+.custom-table th,
+.custom-table td {
+    font-size: 0.9rem;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    background-color: transparent; /* Asegúrate de que las celdas sean transparentes */
+}
+
+.custom-table thead th {
+    border-bottom: 1px solid #505076df; /* Línea inferior blanca para la cabecera */
+}
+
+.custom-table tbody tr {
+    border-bottom: 1px solid #505076cd; /* Línea blanca entre filas */
+}
+
+.custom-table tbody tr:last-child {
+    border-bottom: 1px solid #505076;
+}
+.table td,
+.table th {
+    padding: 14px 10px; /* Ajusta el valor de padding según lo que prefieras */
+}
+.table tbody {
+    border-bottom: none; /* Elimina el borde en el cuerpo de la tabla */
+}
+
+.table tbody tr:last-child td {
+    border-bottom: none; /* Elimina el borde en la última fila si sigue apareciendo */
+}
